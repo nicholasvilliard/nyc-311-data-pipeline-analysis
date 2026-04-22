@@ -10,6 +10,16 @@ The project focuses on real-world analytics challenges including large data volu
 
 The automated pipeline produced a refreshed master dataset exceeding 8 million records as of April 2026.
 
+## Data Source
+
+This project uses the NYC Open Data 311 Service Requests dataset.
+
+**Primary Source:**  
+https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9
+
+Initial analysis used a downloaded CSV extract.  
+The pipeline version uses live API ingestion from the same source.
+
 ---
 
 ## Business Objective
