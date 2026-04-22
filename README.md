@@ -44,50 +44,46 @@ Use NYC 311 complaint data to identify changes in service demand, complaint cate
 
 ## Project Structure
 
-01_initial_analysis.ipynb
-02_data_pipeline.ipynb
-03_pipeline_analysis.ipynb
-README.md
+- 01_initial_analysis.ipynb  
+- 02_data_pipeline.ipynb  
+- 03_pipeline_analysis.ipynb  
+- README.md  
 
-1. Initial Analysis Notebook
+### 1. Initial Analysis Notebook
 
-Exploratory analysis of approximately 7 million records focused on 2024–2025 data.
-
-Includes:
-
-Chunked CSV processing
-Complaint grouping logic
-Borough comparisons
-Trend charts
-Year-over-year category analysis
-2. Data Pipeline Notebook
-
-Built to improve scalability and refreshability.
+Exploratory analysis of approximately 7 million records focused on 2024–2025 complaint data.
 
 Includes:
 
-Live API data ingestion
-Monthly batch extraction
-Retry / backoff handling
-Validation checks
-Deduplication
-Export of refreshed master dataset
-3. Pipeline Analysis Notebook
+- Chunked CSV processing for large dataset handling  
+- Complaint grouping and category mapping  
+- Borough-level comparisons  
+- Monthly trend visualizations  
+- Year-over-year category analysis   
+
+### 2. Data Pipeline Notebook
+
+Built to improve scalability and support automated data refreshes.
+
+Includes:
+
+- Live API data ingestion  
+- Monthly batch extraction  
+- Retry and backoff handling for API reliability  
+- Data validation checks  
+- Deduplication of records  
+- Export of refreshed master dataset  
+
+### 3. Pipeline Analysis Notebook
 
 Uses pipeline-generated data for updated reporting and extended trend analysis.
 
 Includes:
 
-2024–Present monthly trends
-Updated complaint category analysis
-Dynamic year-over-year comparisons
-Partial-year handling for current data
-Key Analytical Findings
-Transportation complaints remained one of the largest demand categories.
-Noise complaints showed strong year-over-year growth.
-Housing-related complaints remained consistently high, especially heat/hot water requests.
-Complaint activity demonstrated seasonal patterns across categories.
-Borough-level demand patterns varied significantly.
+- 2024–Present monthly trend analysis  
+- Updated complaint category analysis  
+- Dynamic year-over-year comparisons  
+- Partial-year handling for current data  
 
 ## Real-World Challenges Solved
 
@@ -135,5 +131,5 @@ This project demonstrates the ability to move beyond static dashboards and work 
 ## Contact
 
 **Nicholas Villiard**  
-LinkedIn: [Add Your LinkedIn URL]  
-GitHub: [Add Your GitHub Profile URL]
+LinkedIn: https://www.linkedin.com/in/nicholas-villiard/  
+GitHub: https://github.com/nicholasvilliard
