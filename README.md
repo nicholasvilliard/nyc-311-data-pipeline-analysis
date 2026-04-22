@@ -8,6 +8,8 @@ What began as a large raw dataset analysis was expanded into a refreshable pipel
 
 The project focuses on real-world analytics challenges including large data volumes, API ingestion, data cleaning, feature engineering, and trend analysis.
 
+Dataset size exceeded 8 million refreshed records as of April 2026.
+
 ---
 
 ## Business Objective
