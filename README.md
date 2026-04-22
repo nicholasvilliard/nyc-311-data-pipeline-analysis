@@ -9,6 +9,7 @@ What began as a large raw dataset analysis was expanded into a refreshable pipel
 The project focuses on real-world analytics challenges including large data volumes, API ingestion, data cleaning, feature engineering, and trend analysis.
 
 The automated pipeline produced a refreshed master dataset exceeding 8 million records as of April 2026.
+
 ---
 
 ## Business Objective
