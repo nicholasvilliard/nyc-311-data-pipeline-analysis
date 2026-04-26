@@ -20,6 +20,28 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-
 Initial analysis used a downloaded CSV extract.  
 The pipeline version uses live API ingestion from the same source.
 
+## Pipeline Architecture
+
+The pipeline follows a structured workflow designed to reliably process large-scale NYC 311 complaint data.
+
+1. **Batch Data Extraction**
+   Monthly API queries were used to manage large data volumes and avoid truncation limits.
+
+2. **Chunked Processing**
+   Data was processed in 100,000-row chunks to improve memory efficiency.
+
+3. **Data Cleaning & Standardization**
+   Column names were normalized and date fields were parsed into usable formats.
+
+4. **Data Validation**
+   Duplicate checks, null analysis, and date range verification were performed to ensure data quality.
+
+5. **Data Consolidation**
+   Processed chunks were combined into a unified dataset.
+
+6. **Final Output**
+   A validated dataset was exported for downstream analysis and reporting.
+   
 ---
 
 ## Business Objective
