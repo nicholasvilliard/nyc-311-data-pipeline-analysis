@@ -1,5 +1,7 @@
 # NYC 311 Data Pipeline & Complaint Trend Analysis
 
+---
+
 ## Overview
 
 This project analyzes NYC 311 service request data and demonstrates the evolution from an initial exploratory analysis into a scalable Python workflow.
@@ -10,6 +12,14 @@ The project focuses on real-world analytics challenges including large data volu
 
 The automated pipeline produced a refreshed master dataset exceeding 8 million records as of April 2026.
 
+---
+
+## Business Objective
+
+Use NYC 311 complaint data to identify changes in service demand, complaint categories, and borough-level patterns that may help inform operational planning and resource allocation.
+
+---
+
 ## Data Source
 
 This project uses the NYC Open Data 311 Service Requests dataset.
@@ -19,6 +29,8 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-
 
 Initial analysis used a downloaded CSV extract.  
 The pipeline version uses live API ingestion from the same source.
+
+---
 
 ## Pipeline Architecture
 
@@ -41,12 +53,6 @@ The pipeline follows a structured workflow designed to reliably process large-sc
 
 6. **Final Output**
    A validated dataset was exported for downstream analysis and reporting.
-   
----
-
-## Business Objective
-
-Use NYC 311 complaint data to identify changes in service demand, complaint categories, and borough-level patterns that may help inform operational planning and resource allocation.
 
 ---
 
