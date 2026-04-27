@@ -56,6 +56,15 @@ The pipeline follows a structured workflow designed to reliably process large-sc
 
 ---
 
+## Key Results
+
+* **Rows Processed:** 8,264,071
+* **Duplicate Records:** 0
+* **Coverage Period:** Jan 2024 – Apr 2026
+* **Output Dataset:** Validated master dataset for downstream analysis
+
+---
+
 ## Key Skills Demonstrated
 
 - Python data analysis with pandas
