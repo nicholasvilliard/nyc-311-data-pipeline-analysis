@@ -92,11 +92,10 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-
 
 ## Project Structure
 
-01_initial_analysis.ipynb
-02_data_pipeline.ipynb
-03_pipeline_analysis.ipynb
-README.md
-
+- 01_initial_analysis.ipynb  
+- 02_data_pipeline.ipynb  
+- 03_pipeline_analysis.ipynb  
+- README.md
 
 ---
 
